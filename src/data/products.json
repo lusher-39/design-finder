@@ -1,0 +1,62 @@
+[
+    {
+      "productName": "Sheepish Charm",
+      "sku6ft": "AA43088506",
+      "sku15ft": "AA43088515",
+      "imagePath": "Sheepish Charm.png"
+    },
+    {
+      "productName": "Shear Perfection",
+      "sku6ft": "AA22500906",
+      "sku15ft": "AA22500915",
+      "imagePath": "Shear Perfection.png"
+    },
+    {
+      "productName": "Golden Slugger",
+      "sku6ft": "AA81785606",
+      "sku15ft": "AA81785615",
+      "imagePath": "Golden Slugger.png"
+    },
+    {
+      "productName": "Golden Serve",
+      "sku6ft": "AA82781306",
+      "sku15ft": "AA82781315",
+      "imagePath": "Golden Serve.png"
+    },
+    {
+      "productName": "Frenchie on Fire",
+      "sku6ft": "AA10166406",
+      "sku15ft": "AA10166415",
+      "imagePath": "Frenchie on Fire.png"
+    },
+    {
+      "productName": "Fluff in the Wind",
+      "sku6ft": "AA63726306",
+      "sku15ft": "AA63726315",
+      "imagePath": "Fluff in the Wind.png"
+    },
+    {
+      "productName": "Fields of Fluff",
+      "sku6ft": "AA88062406",
+      "sku15ft": "AA88062415",
+      "imagePath": "Fields of Fluff.png"
+    },
+    {
+      "productName": "Doodleicious Birthday",
+      "sku6ft": "AA50443206",
+      "sku15ft": "AA50443215",
+      "imagePath": "Doodleicious Birthday.png"
+    },
+    {
+      "productName": "Doodle Birthday Dreams",
+      "sku6ft": "AA99058506",
+      "sku15ft": "AA99058515",
+      "imagePath": "Doodle Birthday Dreams.png"
+    },
+    {
+      "productName": "Chasing Softballs",
+      "sku6ft": "AA85973506",
+      "sku15ft": "AA85973515",
+      "imagePath": "Chasing Softballs.png"
+    }
+  ]
