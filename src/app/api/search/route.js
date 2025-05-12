@@ -13,11 +13,14 @@ export async function GET(request) {
     // Convert query to lowercase for case-insensitive searching
     const normalizedQuery = query.toLowerCase().trim();
     
-    // Search in Supabase
+    // Create the search pattern
+    const searchPattern = `%${normalizedQuery}%`;
+    
+    // Search in Supabase using separate OR conditions
     const { data: products, error } = await supabase
       .from('products')
-      .or(`product_name.ilike.%${normalizedQuery}%,sku_6ft.ilike.%${normalizedQuery}%,sku_15ft.ilike.%${normalizedQuery}%`)
-      .select('*');
+      .select('*')
+      .or(`product_name.ilike.${searchPattern},sku_6ft.ilike.${searchPattern},sku_15ft.ilike.${searchPattern}`);
     
     if (error) {
       throw error;
