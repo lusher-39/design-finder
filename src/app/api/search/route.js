@@ -42,7 +42,7 @@ export async function GET(request) {
   }
 
   // 3) Build ILIKE pattern
-  const pattern = `%${query}%`;
+  const pattern = `${query}`;
   console.log('[Search API] ILIKE search pattern:', pattern);
 
   // 4) Perform Supabase query
